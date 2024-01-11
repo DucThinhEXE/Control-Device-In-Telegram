@@ -1,3 +1,7 @@
+#COPYRIGHT : JiraySoftware ( DucThinhEXE )
+#Zalo : 0978200223
+#Telegram : @DucThinhEXE
+#Facebook : Fb.Com/DucThinhEXE
 from config.apiKey import ACCESS_TOKEN, ID_CHAT
 from tkinter import messagebox
 from telebot import TeleBot
