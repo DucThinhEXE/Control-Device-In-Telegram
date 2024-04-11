@@ -1,9 +1,9 @@
 # Introduction 🤖
 - Đây Là Một Dự Án Nhỏ Đầu Tay Của Mình Nhằm Mục Đích Quản Lý Máy Tính Từ Xa, Khi Người Dùng Máy Không Muốn Sử Dụng Phần Mềm Thứ 3 Để Can Thiệp Hoặc Vân Vân Và Mây Mây ~.~
 - Đồng Thời Đây Cũng Là 1 Dự Án Mình Làm Mang Tính Chất Cá Nhân. Cho Nên Mọi Đóng Góp, Ý Kiến Về Sửa Lỗi Cũng Như Thêm Tính Năng Các Bạn Có Thể Liên Hệ Qua:
-    > Telegram : @DucThinhEXE
-    > Facebook : Facebook.com/61556351104541
-    > Youtube : @JiraySoftware
+    > Telegram : @DucThinhEXE<br>
+    > Facebook : Facebook.com/61556351104541<br>
+    > Youtube : @JiraySoftware<br>
 
 # Installation
 <h1> Setup </h1>
