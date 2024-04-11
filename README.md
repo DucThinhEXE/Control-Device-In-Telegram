@@ -1,84 +1,50 @@
 # Introduction 🤖
 - Đây Là Một Dự Án Nhỏ Đầu Tay Của Mình Nhằm Mục Đích Quản Lý Máy Tính Từ Xa, Khi Người Dùng Máy Không Muốn Sử Dụng Phần Mềm Thứ 3 Để Can Thiệp Hoặc Vân Vân Và Mây Mây ~.~
-- Đồng Thời Đây Cũng Là 1 Dự Án Mình Làm Mang Tính Chất Cá Nhân. Cho Nên Mọi Đóng Góp, Ý Kiến Về Sửa Lỗi Cũng Như Thêm Tính Năng Các Bạn Có Thể Liên Hệ Qua:
+- Đồng Thời Đây Cũng Là 1 Dự Án Mình Làm Mang Tính Chất Cá Nhân. Cho Nên Mọi Đóng Góp, Ý Kiến Về Sửa Lỗi Cũng Như Thêm Tính Năng Các Bạn Có Thể Liên Hệ Qua:<br>
     > Telegram : @DucThinhEXE<br>
     > Facebook : Facebook.com/61556351104541<br>
     > Youtube : @JiraySoftware<br>
 
-# Installation
-<h1> Setup </h1>
-- Tải <a href="https://www.python.org/downloads/release/python-3110/">Python 3.11.0</a>
-- Tải Source Code Về Máy
-```
-git clone https://github.com/Isaacdelly/Plutus.git plutus
-```
-```
-cd plutus && pip3 install -r requirements.txt
-```
+## Installation
+1. **Tải Và Cài Đặt Môi Trường**
+   - Tải Và Cài Đặt [Python 3.11](https://www.python.org/downloads/release/python-3110/)
+   - Thực Hiện Setup Python Trên Máy ( Nhớ Tích Vào Ô Add To Path Nhé )
+2. **Tải Xuống Source Code Phần Mềm**
+   - Thực Hiện Tải Source Code Về Hoặc Mở Command Prompt Nhập Dòng Lệnh
+        ```
+        git clone https://github.com/DucThinhEXE/Control-Device-In-Telegram.git
+        ```
 
-# Quick Start
+3. **Install Các Thư Viện Cần Thiết**
+   - Vào Folder Chứa Code, Mở CMD Tại Thanh Địa Chỉ. Tại Bảng Console, Nhập Lệnh
+        ```
+        pip install -r requirements.txt
+        ```
+4. **Lấy Dữ Liệu Cần Thiết**
+- Vào Telegram , Search Từ Khóa @BotFather 
+- Nhập lệnh __/newbot__ Và Tự Khởi Tạo Con Bot Cho Mình Theo Các Bước Có Sẵn
+- Sau Khi Tạo Xong Sẽ Có Một Tin Nhắn Trả Về Như Ảnh
 
-```
-python3 plutus.py
-```
+    ![Login](https://i.imgur.com/MGMCk9D.jpg)
+- Api Token Chính Là Phần Bôi Đỏ, Còn Chat ID Thì Anh Em Lên [Web Telegram](web.telegram.com) Đăng Nhập, Tạo Nhóm ( Nhớ Thêm Bot Vào Nhé )
+- Sau Khi Tạo Nhóm Xong, chatID Sẽ Hiện Ở Trên URL, Các Bạn Nhớ Lưu Vào Nhé ( Nhớ Là Có Cả Dấu '-'' )
+    
+# How To Use
+- Vào Folder Chứa Tool -> Config -> ApiKey.py
+- Tại Đây Các Bạn Mở File Lên, Cấu Hình Api Key Bot Telegram Và Chat ID Của Các Bạn Vào Nhé
+- Sau Khi Cấu Hình Xong, Các Bạn Quay Lại Folder Chứa Tool, Mở CMD. Tại Đây Các Bạn Thực Hiện Nhập Lệnh Sau :
 
-# Proof Of Concept
+    ```
+    pyinstaller --onefile --noconsole main.py
+    ```
+- Đợi Sau Khi Chạy Xong Chương Trình, Các Bạn Mở Folder __dist__ -> Nhận File .EXE ( Là Phần Mềm Các Bạn Khởi Tạo Vừa Xong ). Sau Đó Mở Thư Mục __Startup__ bằng Cách Gõ Window + R
+- Các Bạn Kéo Thả File .EXE ban nãy vào là xong nhé. Muốn Test Thử Thì Chạy File Đó Lên, Vào Trong Nhóm Telegram Ban Nãy Nhập __/help__. Nếu Nó Phản Hồi Là Thành Công Rồi Nha
+# Important Note !!!
+- Đây Là Phần Mềm Được Tạo Ra Nhằm Để Học Hỏi, Không Nhằm Mục Đích Xấu. Tuyệt Đối Không Sử Dụng Sản Phẩm Vào Các Mục Đích Vi Phạm Pháp Luật. Nếu Có Tôi Hoàn Toàn Không Chịu Trách Nhiệm !
+# Donate
+- Cảm Ơn Các Bạn Đã Sử Dụng Sản Phẩm Của Mình. Các Bạn Có Thể Donate Cho Mình Qua Các Ví Sau Tạo Động Lực Giúp Mình Chia Sẻ Các Phần Mềm Hữu Ích Hơn. Xin Cảm Ơn Các Bạn Rất Nhiều :3
+```MBBANK : 8386282006 - NGUYEN DUC THINH```
+- Mọi Thắc Mắc Hoặc Câu Hỏi Đáp Có Thể Liên Hệ Qua Telegram : @DucThinhEXE. Chúc Các Bạn Sử Dụng Phần Mềm An Toàn Và Có Một Ngày Mới Tốt Lành <333
 
-A private key is a secret number that allows Bitcoins to be spent. If a wallet has Bitcoins in it, then the private key will allow a person to control the wallet and spend whatever balance the wallet has. So this program attempts to find Bitcoin private keys that correlate to wallets with positive balances. However, because it is impossible to know which private keys control wallets with money and which private keys control empty wallets, we have to randomly look at every possible private key that exists and hope to find one that has a balance.
 
-This program is essentially a brute forcing algorithm. It continuously generates random Bitcoin private keys, converts the private keys into their respective wallet addresses, then checks the balance of the addresses. If a wallet with a balance is found, then the private key, public key and wallet address are saved to the text file `plutus.txt` on the user's hard drive. The ultimate goal is to randomly find a wallet with a balance out of the 2<sup>160</sup> possible wallets in existence. 
 
-# How It Works
-
-32 byte hexidecimal strings are generated randomly using `os.urandom()` and are used as our private keys.
-
-The private keys are converted into their respective public keys using the `fastecdsa` python library. This is the fastest library to perform secp256k1 signing. If you run this on Windows then `fastecdsa` is not supported, so instead we use `starkbank-ecdsa` to generate public keys. The public keys are converted into their Bitcoin wallet addresses using the `binascii` and `hashlib` standard libraries.
-
-A pre-calculated database of every funded P2PKH Bitcoin address is included in this project. The generated address is searched within the database, and if it is found that the address has a balance, then the private key, public key and wallet address are saved to the text file `plutus.txt` on the user's hard drive.
-
-This program also utilizes multiprocessing through the `multiprocessing.Process()` function in order to make concurrent calculations.
-
-# Efficiency
-
-It takes `0.002` seconds for this progam to brute force a __single__ Bitcoin address. 
-
-However, through `multiprocessing.Process()` a concurrent process is created for every CPU your computer has. So this program can brute force a single address at a speed of `0.002 ÷ cpu_count()` seconds.
-
-# Database FAQ
-
-An offline database is used to find the balance of generated Bitcoin addresses. Visit <a href="/database/">/database</a> for information.
-
-# Parameters
-
-This program has optional parameters to customize how it runs:
-
-__help__: `python3 plutus.py help` <br />
-Prints a short explanation of the parameters and how they work
-
-__time__: `python3 plutus.py time` <br />
-Brute forces a single address and takes a timestamp of how long it took - used for speed testing purposes
-
-__verbose__: 0 or 1 <br />
-`python3 plutus.py verbose=1`: When set to 1, then every bitcoin address that gets bruteforced will be printed to the terminal. This has the potential to slow the program down
-
-`python3 plutus.py verbose=0`: When set to 0, the program will not print anything to the terminal and the bruteforcing will work silently. By default verbose is set to 0
-
-__substring__: `python3 plutus.py substring=8`:
-To make the program memory efficient, the entire bitcoin address is not loaded from the database. Only the last <__substring__> characters are loaded. This significantly reduces the amount of RAM required to run the program. if you still get memory errors then try making this number smaller, by default it is set to 8. This opens us up to getting false positives (empty addresses mistaken as funded) with a probability of 1/(16^<__substring__>), however it does NOT leave us vulnerable to false negatives (funded addresses being mistaken as empty) so this is an acceptable compromise.
-
-__cpu_count__: `python3 plutus.py cpu_count=1`: number of cores to run concurrently. More cores = more resource usage but faster bruteforcing. Omit this parameter to run with the maximum number of cores
-
-By default the program runs using `python3 plutus.py verbose=0 substring=8` if nothing is passed.
-  
-# Expected Output
-
-If a wallet with a balance is found, then all necessary information about the wallet will be saved to the text file `plutus.txt`. An example is:
-
->hex private key: 5A4F3F1CAB44848B2C2C515AE74E9CC487A9982C9DD695810230EA48B1DCEADD<br/>
->WIF private key: 5JW4RCAXDbocFLK9bxqw5cbQwuSn86fpbmz2HhT9nvKMTh68hjm<br/>
->public key: 04393B30BC950F358326062FF28D194A5B28751C1FF2562C02CA4DFB2A864DE63280CC140D0D540EA1A5711D1E519C842684F42445C41CB501B7EA00361699C320<br/>
->uncompressed address: 1Kz2CTvjzkZ3p2BQb5x5DX6GEoHX2jFS45<br/>
-
-# Recent Improvements & TODO
-
-<a href="https://github.com/Isaacdelly/Plutus/issues">Create an issue</a> so I can add more stuff to improve
