@@ -37,7 +37,7 @@
     ```
     pyinstaller --onefile --noconsole main.py
     ```
-- Đợi Sau Khi Chạy Xong Chương Trình, Các Bạn Mở Folder __dist__ -> Nhận File .EXE ( Là Phần Mềm Các Bạn Khởi Tạo Vừa Xong ). Sau Đó Mở Thư Mục __Startup__ bằng Cách Gõ Window + R
+- Đợi Sau Khi Chạy Xong Chương Trình, Các Bạn Mở Folder __dist__ -> Nhận File .EXE ( Là Phần Mềm Các Bạn Khởi Tạo Vừa Xong ). Sau Đó Mở Thư Mục __Startup__ bằng Cách Gõ Window + R Rồi Nhập __shell:startup__
 - Các Bạn Kéo Thả File .EXE ban nãy vào là xong nhé. Muốn Test Thử Thì Chạy File Đó Lên, Vào Trong Nhóm Telegram Ban Nãy Nhập __/help__. Nếu Nó Phản Hồi Là Thành Công Rồi Nha
 # Important Note !!!
 - Đây Là Phần Mềm Được Tạo Ra Nhằm Để Học Hỏi, Không Nhằm Mục Đích Xấu. Tuyệt Đối Không Sử Dụng Sản Phẩm Vào Các Mục Đích Vi Phạm Pháp Luật. Nếu Có Tôi Hoàn Toàn Không Chịu Trách Nhiệm !
